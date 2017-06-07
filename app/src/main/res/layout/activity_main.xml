@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuecheng.project1.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="215dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp"
+        android:contentDescription="@string/imageView"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription"
+        app:layout_constraintHorizontal_bias="0.503" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="225dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="273dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/textView4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintLeft_toRightOf="@+id/toggleButton1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="97dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="226dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/toggleButton4"
+        android:onClick="tbtnFunction4"
+        android:textOff="@string/professional"
+        android:textOn="@string/hide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="305dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/textView3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintLeft_toRightOf="@+id/toggleButton1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="253dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/toggleButton3"
+        android:onClick="tbtnFunction3"
+        android:textOff="@string/hobbies"
+        android:textOn="@string/hide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.813"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="225dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="337dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintLeft_toRightOf="@+id/toggleButton1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/toggleButton2"
+        android:onClick="tbtnFunction2"
+        android:textOff="@string/skills"
+        android:textOn="@string/hide"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.765" />
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="98dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/toggleButton1"
+        android:onClick="tbtnFunction1"
+        android:textOff="@string/education"
+        android:textOn="@string/hide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        tools:ignore="HardcodedText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="225dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="369dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/textView1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintLeft_toRightOf="@+id/toggleButton1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="73dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/togglebutton"
+        android:onClick="tbtnFunction"
+        android:textOff="@string/togglebutton"
+        android:textOn="@string/hide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982"
+        tools:ignore="MissingConstraints" />
+
+    <VideoView
+        android:id="@+id/vView1"
+        android:layout_width="265dp"
+        android:layout_height="204dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.835"
+        app:layout_constraintHorizontal_bias="0.504" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton5"
+        android:layout_width="77dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="tbtnFunction5"
+        android:text="@string/togglebutton5"
+        android:textOff="@string/togglebutton5"
+        android:textOn="@string/hide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
+
+
+</android.support.constraint.ConstraintLayout>

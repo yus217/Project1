@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="imageView">photo</string>
+    <string name="TextView">summary</string>
+    <string name="textView1">education</string>
+    <string name="textView2">skills</string>
+    <string name="textView3">hobbies</string>
+    <string name="textView4">professional</string>
+    <string name="toggleButton1">togglebutton1</string>
+    <string name="toggleButton2">togglebutton2</string>
+    <string name="toggleButton3">togglebutton3</string>
+    <string name="toggleButton4">togglebutton4</string>
+
+    <string name="education">education</string>
+    <string name="skills">skills</string>
+    <string name="hobbies">hobbies</string>
+    <string name="professional">professional</string>
+    <string name="hide">Hide</string>
+    <string name="photo">photo</string>
+    <string name="togglebutton">photo</string>
+    <string name="togglebutton5">video</string>
+</resources>
